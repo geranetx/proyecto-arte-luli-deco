@@ -10,7 +10,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    filter: drop-shadow(10px 1px 10px black);
 }
+
+.logo{
+    filter: drop-shadow(10px 1px 10px rgb(12, 12, 12));
+    }
+
 
 .nav-bar{
     width: 95%;
@@ -31,7 +37,8 @@
 }
 
 .nav-bar nav ul li a:hover{
-    color: blueviolet;
+    background: rgba(147, 221, 9, 0.3);
+    
 }
 
 .nav-bar nav ul li{
@@ -139,8 +146,39 @@ h1{
 }
 /*final style contacto*/
 
-/*principio style mates*/
+/*principio style macetas*/
+.container-navegador-macetas{
+    width: 100%;
+    height: 120px;
+    background-image: url(../assets/img/banner/baner-inicio-macetas);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(10px 1px 10px black);
+}
 
+.container-card-macetas{
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 25px;
+    gap: 20px;
+    }
+
+    .container-card-macetas div a img{
+        border:  1px solid rgb(240, 36, 179);
+    }
+
+    .container-card-macetas div a img:hover{
+        transform: translateX(-15px);
+    }
+/*final style macetas*/
+
+
+
+/*principio style mates*/
 .container-navegador-mates{
     width: 100%;
     height: 120px;
@@ -148,22 +186,122 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    filter: drop-shadow(10px 1px 10px black);
 }
 
 .container-card-mates{
-    display: flex;
-    position: relative;
-    justify-self: center;
-    gap: 20px;
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
     padding: 25px;
+    gap: 20px;
+    }
+
+.container-card-mates div a img{
+    border:  1px solid rgb(80, 36, 240);
 }
 
 .container-card-mates div a img:hover{
-    animation:
+    transform: translateY(-15px);
+}
+/*final style mates*/
+
+/*principio style bandejas*/
+.container-navegador-bandejas{
+    width: 100%;
+    height: 120px;
+    background-image: url(../assets/img/banner/baner-inicio-bandejas);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(10px 1px 10px black);
 }
 
+.container-card-bandejas{
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    gap: 5px;
+}
 
+.container-card-bandejas div a img:hover{
+    transform: translateX(-10px);
+}
 
+.container-card-bandejas div a img{
+    border:  1px solid rgb(240, 36, 104);
+}
+/*final style bandejas*/
 
+/*principio style sets*/
+.container-card-sets{
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 25px;
+    gap: 20px;
+    }
 
+    .container-navegador-sets{
+        width: 100%;
+        height: 120px;
+        background-image: url(../assets/img/banner/baner-inicio-sets);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        filter: drop-shadow(10px 1px 10px black);
+    }
 
+    .container-card-sets div a img:hover{
+        transform: translateY(-10px);
+    }
+
+    .container-card-sets div a img{
+        border: solid 1px rgb(236, 54, 54);
+    }
+
+@media  (max-width: 768px){
+    .container-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 100px;
+    }
+    .nav-bar nav ul li a{
+        font-size: 15px;
+    }
+    .container-card-macetas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .nav-bar{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px){
+    .container-card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        }
+        .nav-bar nav ul li a{
+            display: grid;
+            gap: 5px;
+            font-size: 15px;
+        }
+        .nav-bar{
+            padding: 10px;
+        }
+        .container-card-macetas{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
