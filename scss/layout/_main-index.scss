@@ -1,0 +1,29 @@
+marquee{
+    background-color: rgba(247, 6, 6, 0.219);
+    span{
+        padding: 50px;
+    }
+}
+h1{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    width: 100%;
+    padding: 42px;
+    gap: 35px;
+    justify-content: center;
+
+     .boton-compra{
+        text-decoration: none;
+        background-color: $background-boton-compra;
+        padding: 3px;
+        color: $color-letra-boton-compra;
+        border-radius: 7px;
+        text-align: center;
+    }
+    div img:hover{
+        transform: scale(1.2);
+    }
+}

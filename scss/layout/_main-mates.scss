@@ -1,0 +1,13 @@
+.container-card-mates{
+    display: flex;
+    position: relative;
+    justify-self: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 25px;
+    gap: 20px;
+    }

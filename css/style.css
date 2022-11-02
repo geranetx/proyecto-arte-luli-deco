@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  height: 80px;
+  background-size: 100%;
+  background-image: url(../assets/img/banner/baner-inicio2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 18px; }
+
+marquee {
+  background-color: rgba(247, 6, 6, 0.219); }
+  marquee span {
+    padding: 50px; }
+
+h1 {
+  text-align: center; }
+
+section {
+  display: flex;
+  width: 100%;
+  padding: 42px;
+  gap: 35px;
+  justify-content: center; }
+  section .boton-compra {
+    text-decoration: none;
+    background-color: rgba(19, 18, 18, 0.712);
+    padding: 3px;
+    color: #eed7d7;
+    border-radius: 7px;
+    text-align: center; }
+  section div img:hover {
+    transform: scale(1.2); }
+
+footer {
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(226, 98, 98, 0.459);
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px; }
+  footer h3 {
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px; }
+  footer a {
+    margin: 7px; }
+
+.carousel-item {
+  padding: 39px; }
+
+.leyenda-card {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  text-align: center; }
+  .leyenda-card .boton-compra-maceta {
+    text-decoration: none;
+    background-color: black;
+    padding: 3px;
+    color: antiquewhite;
+    border-radius: 7px;
+    text-align: center; }
+
+.container-card-mates {
+  display: flex;
+  position: relative;
+  justify-self: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 100%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 25px;
+  gap: 20px; }
+
+.container-card-bandejas {
+  padding: 57px;
+  width: 100%; }
+  .container-card-bandejas .estilo-bandeja {
+    gap: 50px; }
+    .container-card-bandejas .estilo-bandeja img {
+      border: 2px rgba(168, 49, 49, 0.815) solid;
+      gap: 50px; }
+
+h2 {
+  text-align: center;
+  padding: 10px; }
+
+.form-container {
+  padding: 99px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  gap: 20px; }
