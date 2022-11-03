@@ -10,9 +10,9 @@
     
     .boton-compra-maceta{
         text-decoration: none;
-        background-color: black;
+        background-color: $background-boton-compra;
         padding: 3px;
-        color: antiquewhite;
+        color: $color-letra-boton-compra;
         border-radius: 7px;
         text-align: center;
     }
