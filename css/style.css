@@ -122,4 +122,27 @@ h2 {
   .container-card {
     display: flex;
     flex-direction: column;
-    padding-left: 200px; } }
+    padding-left: 150px; }
+  .titulo-destacados {
+    padding-right: 50px; } }
+
+@media (max-width: 360px) {
+  .container-card {
+    padding-left: 60px; }
+  .footer-redes {
+    display: flex;
+    padding-left: 60px; }
+  .navbar {
+    display: grid;
+    justify-content: center; }
+  .container-card-mates {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+  .container-card-bandejas {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 70px; }
+  .container-card-sets {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 70px; } }
