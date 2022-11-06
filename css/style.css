@@ -117,3 +117,9 @@ h2 {
     padding-bottom: 50px; }
   .container-fluid {
     padding-bottom: 300px; } }
+
+@media (max-width: 576px) {
+  .container-card {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px; } }
