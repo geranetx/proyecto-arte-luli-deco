@@ -10,10 +10,18 @@
     
     .boton-compra-maceta{
         text-decoration: none;
+        width: 80px;
         background-color: $background-boton-compra;
         padding: 3px;
         color: $color-letra-boton-compra;
         border-radius: 7px;
         text-align: center;
     }
-}
+    }
+
+    .carousel-control-prev{
+        margin-left: 400px;
+    }
+    .carousel-control-next{
+        margin-right: 400px;
+    }
