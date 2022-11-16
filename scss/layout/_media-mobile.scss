@@ -2,8 +2,9 @@
     
     .container-card{
         display: flex;
-        flex-direction: column;
         padding-left: 20px;
+        height: 1100px;
+        margin-top: 50px;
         }
         .carousel{
             height: 700px;
@@ -14,11 +15,15 @@
     }
    .main-contacto{
     width: 100%;
-    height: 550px;
+    height: 1230px;
     margin-top: 20px;
+    padding-top: 100px;
    }
    .container-card-bandejas{
     padding: 100px;
+   }
+   .container-card-sets{
+    padding-right: 70px;
    }
 }
 
@@ -61,6 +66,9 @@
     }
     .titulo-destacados{
         margin-left: 45px;
+    }
+    .carousel-item{
+        padding: 1px;
     }
     .carousel-control-prev{
         margin-left: 10px;
