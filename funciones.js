@@ -3,7 +3,7 @@ let Nombre = prompt("ingrese su nombre");
 let apellido = prompt("ingrese su apellido");
 let mail = prompt("ingrese su correo electronico")
 
-let ingresoCompra = prompt("que esta buscando?, macetas, mates, bandejas o sets?")
+let ingresoCompra = prompt("que esta buscando?, macetas, mates, bandejas, sets o varios?")
 
 switch (ingresoCompra){
 case "macetas":
@@ -18,15 +18,26 @@ break;
 case "sets":
     alert ("tenemos muchas variedad en sets");
     break;
+    case "varios":
+        break;
 }
 
-let cantidadMacetas = prompt("ingrese la cantidad de macetas que va a querer")
-if (cantidadMacetas >= "3"){
- alert ("tiene un descuento del 30%")
+let cantidadProductos = prompt("ingrese la cantidad de productos que va a llevar");
+cantidadProductos = Number(cantidadProductos);
+if (cantidadProductos >= 3){
+    alert ("tiene un 30% de descuento");
 }
-if (cantidadMacetas <= "3"){
-    alert ("si lleva mas de tres macetas tiene un descuento del 30%")
-}
+    else {
+        alert ("si lleva mas de 3 productos obtiene un 30% de descuento");
+    }
+
+    
+
+
+
+
+
+
 
 
 
